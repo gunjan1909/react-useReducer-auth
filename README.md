@@ -1,4 +1,4 @@
-### Learning Fragments, Portals and Refs in React.
+### Learning useReducer hook
 
 # Getting Started with Create React App
 
