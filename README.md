@@ -1,4 +1,4 @@
-### Learning useReducer hook
+### Learning useReducer hook, Context API.
 
 # Getting Started with Create React App
 
