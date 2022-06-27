@@ -1,4 +1,4 @@
-### Learning useReducer hook, React Context, forwardRef hook .
+### Learning useReducer hook, React Context, forwardRef hook.
 
 # Getting Started with Create React App
 

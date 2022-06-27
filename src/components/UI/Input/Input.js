@@ -2,7 +2,7 @@ import React, { useRef, useImperativeHandle, forwardRef } from "react";
 
 import classes from "./Input.module.css";
 
-const Input = React.forwardRef((props, ref) => {
+const Input = forwardRef((props, ref) => {
   const inputRef = useRef();
   /*useEffect(() => {
     //inputRef.current will give the dom element and focus() is a DOM method for inputs to focus
@@ -13,6 +13,7 @@ const Input = React.forwardRef((props, ref) => {
     inputRef.current.focus();
   };
 
+  //inputRef.current.focus() is used in Login.js, that focus is coming from here useImperativeHandle to the ref, which return the pointer to activate function and here activate function is just to focus on that input element
   useImperativeHandle(ref, () => {
     return {
       focus: activate,

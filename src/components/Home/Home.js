@@ -11,6 +11,13 @@ const Home = () => {
   return (
     <Card className={classes.home}>
       <h1>Welcome back!</h1>
+      <p>
+        Learnt about sideeffects, useeffect, usereducer, refs, context api,
+        hooks and context limitations, forwardref.
+      </p>
+      <small>Used localStorage for storing the login state</small>
+      <br />
+      <br />
       <Button onClick={authCtx.onLogout}>Logout</Button>
     </Card>
   );

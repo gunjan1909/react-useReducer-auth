@@ -99,6 +99,7 @@ const Login = () => {
   };
 
   const submitHandler = (event) => {
+    //we r using ref for adding focus to the input, but since input is not a dom element rather a component, we pass it ref and use forwardRef to get the dom element, check in Input.js
     event.preventDefault();
     if (formIsValid) {
       authCtx.onLogin(emailState.value, passwordState.value);
